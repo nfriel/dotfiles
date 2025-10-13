@@ -16,4 +16,4 @@ vim.keymap.set('n', '<leader>fg', telescope.live_grep)
 vim.keymap.set('n', '<leader>fb', telescope.buffers)
 
 -- lsp
-vim.lsp.enable({'clangd', 'lua_ls'})
+vim.lsp.enable({'clangd', 'lua_ls', 'rust_analyzer', 'pylsp'})
