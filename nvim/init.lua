@@ -6,6 +6,7 @@ require('plugin')
 vim.o.number = true
 vim.o.relativenumber = false
 vim.o.scrolloff = 4
+vim.o.shiftwidth = 4
 
 -- keymaps
 local telescope = require('telescope.builtin')
